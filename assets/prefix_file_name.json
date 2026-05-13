@@ -1,0 +1,8 @@
+{
+  "bf": "bibframe.rdf",
+  "bibo": "bibo.rdf",
+  "cidoc": "cidoc_crm.rdf",
+  "foaf": "foaf.rdf",
+  "prov": "prof_o.rdf",
+  "rico": "ric_o.rdf"
+}

@@ -1,0 +1,22 @@
+[workspace]
+members = [
+    "datamodel",
+    "reader",
+    "ref_ontology",
+    "validation"
+]
+resolver = "3"
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[workspace.dependencies]
+oxrdfxml="0.2.3"
+oxttl = "0.2.3"
+oxrdf = "0.3.3"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1.0.139"
+thiserror="2.0.11"
+

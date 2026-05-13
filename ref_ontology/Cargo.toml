@@ -1,0 +1,7 @@
+[package]
+name = "ref_ontology"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+thiserror.workspace = true

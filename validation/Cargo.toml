@@ -1,0 +1,13 @@
+[package]
+name = "validation"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+reader = { path = "../reader" }
+datamodel = { path = "../datamodel" }
+ref_ontology = { path = "../ref_ontology" }
+
+[[bin]]
+name = "validate"
+path = "../validation/src/main.rs"
